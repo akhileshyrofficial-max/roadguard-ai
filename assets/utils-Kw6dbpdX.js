@@ -1,1 +1,0 @@
-import{v as c,c as p}from"./jsonUtils-rvWrjUVI.js";function f(r){return{geometryType:c(r[0]),geometries:r.map(t=>t.toJSON())}}function i(r,t,o){const n=p(t);return r.map(m=>{const e=n.fromJSON(m);return e.spatialReference=o,e})}export{i as o,f as r};
