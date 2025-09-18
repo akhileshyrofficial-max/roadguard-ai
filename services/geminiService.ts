@@ -1,5 +1,4 @@
-
-import { GoogleGenAI, Type } from "@google/genai";
+import { GoogleGenerativeAI } from "@google/generative-ai";
 import type { AnalysisResult, SatelliteAnalysisResult, AreaHealthAssessment, Defect } from '../types';
 
 if (!process.env.API_KEY) {
