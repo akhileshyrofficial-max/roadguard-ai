@@ -1,0 +1,8 @@
+{
+  "name": "RoadGuard AI: Pothole Detection",
+  "description": "An intelligent web application that uses AI to analyze images of roads, detect potholes and other defects, and provide detailed analysis including dimensions, area, and severity.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
